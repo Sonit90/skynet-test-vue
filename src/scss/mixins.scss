@@ -1,0 +1,14 @@
+@mixin size($width, $height: 0) {
+  width: $width;
+  height: $width;
+  @if $height != 0 {
+    height: $height;
+  }
+}
+@mixin pseudo{
+  content: '';
+  position: absolute;
+}
+@mixin non-selectable{
+  user-select: none!important;
+}
