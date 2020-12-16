@@ -75,8 +75,10 @@ export default Vue.extend({
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     &__text{
-      font-size: 18px;
+      font-size: 26px;
+      font-weight: 700;
     }
     &__sum{
       font-weight: 700;
