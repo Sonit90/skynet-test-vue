@@ -92,7 +92,7 @@ export default Vue.extend({
     selectedSum(): number {
       return this.selectValues.reduce((a: number, b: number) => a + b, 0);
     },
-    price() {
+    price(): number {
       return this.optionSum + this.selectedSum + this.options.price_default;
     },
   },

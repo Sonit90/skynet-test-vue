@@ -53,7 +53,7 @@ export default Vue.extend({
     },
   },
   computed: {
-    totalPrice() {
+    totalPrice(): number {
       return this.prices.reduce((a: number, b: number) => a + b, 0);
     },
   },

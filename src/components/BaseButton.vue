@@ -2,7 +2,7 @@
   <button
     class="base-button"
     :disabled="disabled"
-    :class="[{disabled:disabled}, {dimmed: dimmed}]"
+    :class="[{disabled}, {dimmed}]"
     v-on="$listeners"
   >
     <span v-text="label">
